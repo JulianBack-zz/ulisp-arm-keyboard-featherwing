@@ -13,4 +13,4 @@ https://www.solder.party/docs/keyboard-featherwing/
 
 https://www.adafruit.com/product/3857
 
-Next Step, hookup a micro SD Card reader and enable sd functionality in the uLisp code.
+Next Step, enable sd functionality in the uLisp code.
