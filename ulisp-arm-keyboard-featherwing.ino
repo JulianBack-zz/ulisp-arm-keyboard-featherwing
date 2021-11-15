@@ -6043,6 +6043,7 @@ void initenv () {
 }
 
 void setup () {
+  initgfx();
   Serial.begin(9600);
 #if defined(kbfewing)
 #else
