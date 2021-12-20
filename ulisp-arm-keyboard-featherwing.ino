@@ -12,7 +12,7 @@ const char LispLibrary[] PROGMEM = "";
 // #define resetautorun
 #define printfreespace
 #define printgcs
-// #define sdcardsupport
+#define sdcardsupport
 #define gfxsupport
 #if defined(gfxsupport)
 //#define ADAFRUIT_ST7735
@@ -106,7 +106,11 @@ CTTy TTy;
   #define DATAFLASH
   #define FLASHSIZE 2048000               /* 2 MBytes */
   #define CODESIZE 256                    /* Bytes */
+#if defined(kbfewing)
+  #define SDCARD_SS_PIN 5
+#else
   #define SDCARD_SS_PIN 10
+#endif
   #define STACKDIFF 400
   #define CPU_ATSAMD51
 

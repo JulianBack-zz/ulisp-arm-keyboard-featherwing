@@ -13,4 +13,7 @@ https://www.solder.party/docs/keyboard-featherwing/
 
 https://www.adafruit.com/product/3857
 
-Next Step, enable sd functionality in the uLisp code.
+Basic uLisp SD functionality card is working in this fork.
+
+My next step is to add some more SD card and other functions.
+
